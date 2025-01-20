@@ -15,12 +15,12 @@ on:
         default: true
       build_a13:
         description: 'Build Android 13 kernel?'
-        required: false
+        required: true
         type: boolean
         default: true
       build_a14:
         description: 'Build Android 14 kernel?'
-        required: false
+        required: true
         type: boolean
         default: true
       make_release:
